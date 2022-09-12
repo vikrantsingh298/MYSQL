@@ -75,5 +75,5 @@ select * from boardingpass;
 
 select p.cust_id as CUSTOMER_ID, fd.f_id AS FLIGHT_ID, p.cust_name as CUSTOMER_NAME,fi.airline_id, fi.airline_name, fi.from_location, fi.to_location, fi.depart_time, fi.arrive_time, fd.price from passenger p, flightinfo fi, flightdetails fd , boardingpass b where b.cust_id=p.cust_id AND fi.f_id=fd.f_id AND b.f_id=fi.f_id;
 
-
+Hii I M vikrant
 
